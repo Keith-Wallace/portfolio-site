@@ -1,4 +1,4 @@
-import { AiOutlinePhone, AiOutlineGithub, AiOutlineLinkedin, AiOutlineMail   } from "react-icons/ai";
+import { AiOutlinePhone, AiOutlineGithub, AiOutlineLinkedin, AiOutlineMail } from "react-icons/ai";
 import { LiaSitemapSolid } from "react-icons/lia";
 import { GrSystem } from "react-icons/gr";
 import { CgPerformance } from "react-icons/cg";
@@ -21,31 +21,31 @@ function MainContent() {
       <section className="section-ability-scores">
         <h2>What I Focus On</h2>
         <div className="card-info">
-          <LiaSitemapSolid />
+          <div><LiaSitemapSolid /></div>
           <div>
             <h3>Frontend Architecture</h3>
-            <p>Building systat teams can actually maintain and extend.</p>
+            <p>Building systems teams want to work in—scalable, maintainable, and clear.</p>
           </div>
         </div>
         <div className="card-info">
-          <GrSystem />
+          <div><GrSystem /></div>
           <div>
             <h3>Systems Design</h3>
-            <p>Connecting frontend decisions to the broader technical ecosystem.</p>
+            <p>Thinking beyond the UI to how everything connects and evolves.</p>
           </div>
         </div>
         <div className="card-info">
-          <CgPerformance />
+          <div><CgPerformance /></div>
           <div>
             <h3>Performance Optimization</h3>
-            <p>Making fast feel instant, even at scale.</p>
+            <p>Sweating the details so products feel fast, fluid, and responsive.</p>
           </div>
         </div>
         <div className="card-info">
-          <IoAccessibilityOutline />
+          <div><IoAccessibilityOutline /></div>
           <div>
             <h3>Accessibility</h3>
-            <p>Ensuring products work for everyone, not just ideal users.</p>
+            <p>Making sure great experiences are actually usable by everyone.</p>
           </div>
         </div>
       </section>
