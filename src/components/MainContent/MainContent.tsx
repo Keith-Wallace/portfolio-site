@@ -63,6 +63,25 @@ function MainContent() {
       <section className="character-background">
         <h2>Experiences</h2>
         <div className="experience-card">
+          <h3>Founding Engineer (Independent Project)</h3>
+          <span>Stealth SaaS Startup | Remote | 2026-Present</span>
+          <ul>
+            <li>Define the technical vision and architecture for a greenfield SaaS platform from concept through MVP.</li>
+            <li>Design and implement the platform's system architecture, including frontend, backend, authentication, data layer, and cloud infrastructure.</li>
+            <li>Lead development of the platform using React, Supabase, PostgreSQL, and modern JavaScript development practices.</li>
+            <li>Partner closely with executive leadership to translate product vision and business requirements into scalable software architecture and technical solutions.</li>
+            <li>Design flexible data models, configurable business rules, and end-to-end application workflows that support scalability, maintainability, and future product evolution</li>
+            <li>Evaluate AI-assisted development workflows and emerging LLM technologies to improve engineering productivity and inform future platform capabilities</li>
+            <li>Establish engineering standards, development workflows, source control practices, and long-term technical strategy</li>
+          </ul>
+          <div className="skills">
+            <span>React</span>
+            <span>TypeScript</span>
+            <span>Supabase</span>
+            <span>Vite</span>
+          </div>
+        </div>
+        <div className="experience-card">
           <h3>Chief Technical Advisor (Volunteer Side Project)</h3>
           <span>PharmaDinners | Remote | 2025–Present</span>
           <ul>
