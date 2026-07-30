@@ -1,0 +1,75 @@
+# robots.txt for keithwallace.dev
+# Keeps /project-compass out of search engines and AI crawlers/scrapers.
+# NOTE: robots.txt is a voluntary standard — it stops well-behaved crawlers,
+# not access by anyone with the direct link, and a few bots (Bytespider,
+# Perplexity's stealth crawler, agentic browsers using a standard browser
+# user-agent) are documented as ignoring it entirely.
+
+# ── Catch-all: blocks standard search engines (Google, Bing, DuckDuckGo, etc.)
+#    and any crawler not explicitly listed below ──
+User-agent: *
+Disallow: /project-compass/
+
+# ── OpenAI ──
+User-agent: GPTBot
+Disallow: /project-compass/
+
+User-agent: ChatGPT-User
+Disallow: /project-compass/
+
+User-agent: OAI-SearchBot
+Disallow: /project-compass/
+
+# ── Anthropic ──
+User-agent: ClaudeBot
+Disallow: /project-compass/
+
+User-agent: Claude-User
+Disallow: /project-compass/
+
+User-agent: Claude-SearchBot
+Disallow: /project-compass/
+
+User-agent: anthropic-ai
+Disallow: /project-compass/
+
+User-agent: Claude-Web
+Disallow: /project-compass/
+
+# ── Google AI training (separate from standard Googlebot, already covered above) ──
+User-agent: Google-Extended
+Disallow: /project-compass/
+
+# ── Perplexity ──
+User-agent: PerplexityBot
+Disallow: /project-compass/
+
+User-agent: Perplexity-User
+Disallow: /project-compass/
+
+# ── Meta ──
+User-agent: meta-externalagent
+Disallow: /project-compass/
+
+User-agent: FacebookBot
+Disallow: /project-compass/
+
+# ── Apple ──
+User-agent: Applebot-Extended
+Disallow: /project-compass/
+
+# ── Others ──
+User-agent: CCBot
+Disallow: /project-compass/
+
+User-agent: Bytespider
+Disallow: /project-compass/
+
+User-agent: Amazonbot
+Disallow: /project-compass/
+
+User-agent: cohere-ai
+Disallow: /project-compass/
+
+User-agent: Diffbot
+Disallow: /project-compass/
