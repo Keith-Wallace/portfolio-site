@@ -5,6 +5,7 @@
 # Perplexity's stealth crawler, agentic browsers using a standard browser
 # user-agent) are documented as ignoring it entirely.
 
+
 # ── Catch-all: blocks standard search engines (Google, Bing, DuckDuckGo, etc.)
 #    and any crawler not explicitly listed below ──
 User-agent: *
