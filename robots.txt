@@ -74,3 +74,18 @@ Disallow: /project-compass/
 
 User-agent: Diffbot
 Disallow: /project-compass/
+
+User-agent: Googlebot
+Disallow: /project-compass/
+
+User-agent: Bingbot
+Disallow: /project-compass/
+
+User-agent: DuckDuckBot
+Disallow: /project-compass/
+
+User-agent: YandexBot
+Disallow: /project-compass/
+
+User-agent: Baiduspider
+Disallow: /project-compass/
